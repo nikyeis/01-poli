@@ -54,16 +54,18 @@ p {
     color: var(--white);
     font-weight: 700;
     font-size: 26px;
-
+margin: 15px;
 }
 
-.hlavni {margin: 1rem;}
+.hlavni {
+    margin: 1rem;
+}
 
-nav {
+nav a {
     color: var(--white);
     font-weight: 400;
     font-size: 21px;
-
+margin: 15px;
 }
 
 img {
@@ -76,19 +78,26 @@ img {
     background-color: var(--secondery-color);
     margin: 1rem;
     padding: 20px;
+    width: 33%;
 }
 
 .row {
     display: flex;
     flex-direction: row;
-    margin: 1rem;
+margin-left: -1rem;
+margin-right: -1rem;
+}
+
+
+
+.galery {display: flex;
+flex-direction: row;
 
 }
 
-.fotky {
-    display: flex;
-    justify-content: center;
-}
+
+
+.galery-photo {height: auto;}
 
 footer {
     display: flex;
@@ -97,15 +106,22 @@ footer {
 
 }
 
+
 @media (min-width: 768px) {
     .container {
         max-width: 600px;
+    }
+    html {
+        font-size: 17px;
     }
 }
 
 @media (min-width: 992px) {
     .container {
         max-width: 960px;
+    }
+     html {
+        font-size: 18px;
     }
 }
 
@@ -120,5 +136,10 @@ footer {
         flex-direction: column;
 
     }
+    .text {width: 100%;
+    
+    }
+
+    .fotky img {width: 100%;}
 
 }
