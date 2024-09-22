@@ -30,6 +30,8 @@ header {
     justify-content: space-around;
 }
 
+.fakthlavni {margin:20px ;}
+
 a {
     text-decoration: none;
 
@@ -95,7 +97,7 @@ flex-direction: row;
 
 }
 
-
+.photo {padding: 0.5rem;}
 
 .galery-photo {height: auto;}
 
@@ -137,9 +139,10 @@ footer {
 
     }
     .text {width: 100%;
-    
+margin: 10px;
     }
 
-    .fotky img {width: 100%;}
+    .fotky img {width: 100%;
+    margin: 10px;}
 
 }
