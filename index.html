@@ -1,76 +1,102 @@
 <!DOCTYPE html>
 <html lang="cs">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styly.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
-        <div>
-        <h1>My Little Poli </h1>
-        <nav>
-<a href=""> O Poli</a>
-<a href="#charakteristika">Charakteristika</a>
-<a href="#fotky">Fotky</a>
-        </nav>
-    </div>
-        <button></button>
-</header>
-
-<section>
-    <img src="img/hlavni_foto.png" alt="">
-    <div>
-        <h1>Polina - ruská modrá kočka</h1>
-        <a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla at necessitatibus totam alias perspiciatis ea excepturi facilis cupiditate
-             expedita repellat quibusdam quam consectetur eos perferendis, tenetur molestiae, odit aperiam non.</a>
-        <a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla at necessitatibus totam alias perspiciatis ea excepturi facilis cupiditate
-             expedita repellat quibusdam quam consectetur eos perferendis, tenetur molestiae, odit aperiam non.</a>
-        <a>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla at necessitatibus totam alias perspiciatis ea excepturi facilis cupiditate
-             expedita repellat quibusdam quam consectetur eos perferendis, tenetur molestiae, odit aperiam non.</a>
-</div>
-</section>
-<section id="#charakteristika">
-    <h1>Jaké jsou ruské modré kočky</h1>
-    <div>
-<h2>POVAHA</h2>
-<a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum cum fugiat eligendi quam atque omnis illum temporibus exercitationem ducimus,
-     assumenda, sunt placeat tempora! Placeat nostrum doloribus at, iste excepturi sint.</a>
-    </div>
-
-<div>
-<h2>VZHLED</h2>
-<a>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis maiores id odit laudantium, harum dicta cupiditate vero sint aperiam 
-    ipsa aut blanditiis vitae perspiciatis voluptas repellat. Quisquam, itaque! Unde, quibusdam?</a>
-    </div>
-
-<div>
-<h2>HISTORIE</h2>
-<a>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit porro aliquam tempora atque, repellendus facilis autem quaerat laborum
-     placeat dolores doloremque? Ipsam, rerum totam deserunt inventore iure assumenda nesciunt nobis.</a>
-    </div>
-</section>
-
-<section>
-    <h1 id="#fotky">Fotogalerie</h1>
-    <div>
-        <img src="img/foto_1.png" alt="">
-        <div>
-            <div>
-<img src="img/foto_2.png" alt="">
-<img src="img/foto_3.png" alt="">
-            </div>
- <img src="img/foto_4.png" alt="">
+        <div class="head">
+            <h1 class="poli">My Little Poli </h1>
+            <nav>
+                <a href=""> O Poli</a>
+                <a href="#charakteristika">Charakteristika</a>
+                <a href="#fotky">Fotky</a>
+            </nav>
         </div>
-        <img src="img/foto_5.png" alt="">
-    </div>
-</section>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <img class="hlavni" src="img/hlavni_foto.png" alt="">
+                <div>
+                    <h1>Polina - ruská modrá kočka</h1>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla at necessitatibus totam alias
+                        perspiciatis ea excepturi facilis cupiditate
+                        expedita repellat quibusdam quam consectetur eos perferendis, tenetur molestiae, odit aperiam
+                        non.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla at necessitatibus totam alias
+                        perspiciatis ea excepturi facilis cupiditate
+                        expedita repellat quibusdam quam consectetur eos perferendis, tenetur molestiae, odit aperiam
+                        non.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla at necessitatibus totam alias
+                        perspiciatis ea excepturi facilis cupiditate
+                        expedita repellat quibusdam quam consectetur eos perferendis, tenetur molestiae, odit aperiam
+                        non.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="#charakteristika">
+        <div class="container">
+            <h1>Jaké jsou ruské modré kočky</h1>
+            <div class="row">
+                </di>
+                <div class="text">
+                    <h2>POVAHA</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum cum fugiat eligendi quam atque
+                        omnis illum temporibus exercitationem ducimus,
+                        assumenda, sunt placeat tempora! Placeat nostrum doloribus at, iste excepturi sint.</p>
+                </div>
+
+                <div class="text">
+                    <h2>VZHLED</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis maiores id odit laudantium,
+                        harum dicta cupiditate vero sint aperiam
+                        ipsa aut blanditiis vitae perspiciatis voluptas repellat. Quisquam, itaque! Unde, quibusdam?</p>
+                </div>
+
+                <div class="text">
+                    <h2>HISTORIE</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit porro aliquam tempora atque,
+                        repellendus facilis autem quaerat laborum
+                        placeat dolores doloremque? Ipsam, rerum totam deserunt inventore iure assumenda nesciunt nobis.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <section>
+        <h1 id="#fotky">Fotogalerie</h1>
+        <div class="fotky">
+            <div class="row">
+                <img src="img/foto_1.png" alt="">
+                <div>
+                    <div class="row">
+                        <div>
+                            <img src="img/foto_2.png" alt="">
+                        </div>
+                        <div>
+                            <img src="img/foto_3.png" alt="">
+                        </div>
+                    </div>
+                    <img src="img/foto_4.png" alt="">
+                </div>
+                <img src="img/foto_5.png" alt="">
+            </div>
+        </div>
+    </section>
 
     <footer>
-Vytvořila Nikola Eisenhammerová 2024
+        Vytvořila Nikola Eisenhammerová 2024
     </footer>
-    
-    
+
+
 </body>
+
 </html>
